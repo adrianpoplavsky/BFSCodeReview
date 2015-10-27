@@ -3,6 +3,7 @@
 NOTE: had i been involved in earlier stages, I would have recommended against using  time/effort in coding the logger, i would have evaluated Log4Net as a logging tool which is an already tested/working component.
 
 Workitems:
+
 • make the code compile. It does not now. (change bool message by bool info and adjust code)
 
 • separate the code into methods: LogMessage, LogWarning, LogError. Remove unnecessary bool params and separate responsibilities.
